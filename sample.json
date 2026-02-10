@@ -1,0 +1,11 @@
+{
+    "storage": [
+                    {"name": "logs-bucket", "public": true}
+                    ],
+    "iam_policies": [
+                         {"name": "Admin", "actions": ["*"], "resources": ["*"]}
+                         ],
+    "security_groups": [
+                            {"name": "ssh-open", "port": 22, "cidr": "0.0.0.0/0"}
+                            ]
+    }
